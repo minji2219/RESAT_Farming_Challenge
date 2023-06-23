@@ -1,0 +1,16 @@
+.daybox{
+  width:1050px;
+  margin:auto;
+  border: 2px solid black;
+  display:grid;
+  grid-template-columns:repeat(7,150px);
+  position:relative;
+}
+.day{
+  font-size:30px;
+  text-align: center;
+  box-sizing: content-box;
+  width:150px;
+  border:2px solid black;
+  height:100px;
+}
