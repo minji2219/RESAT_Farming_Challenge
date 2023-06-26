@@ -1,0 +1,9 @@
+.swiper{
+  width:500px;
+  height:500px;
+  margin:auto;
+}
+.swiper-slide{
+  text-align: center;
+  margin-top:250px;
+}
