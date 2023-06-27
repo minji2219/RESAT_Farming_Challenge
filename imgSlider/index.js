@@ -2,6 +2,9 @@
 new Swiper('.swiper',{
   loop:true,
   centeredSlides: true,
+  autoplay:{
+    delay:2000
+  },
   pagination:{
     el:'.swiper-pagination',
     clickable:true
