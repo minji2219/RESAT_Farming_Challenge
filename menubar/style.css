@@ -1,0 +1,58 @@
+.big ul{
+  margin:0;
+  font-size:50px;
+  display:flex;
+  gap:10px;
+  list-style: none;
+}
+.big ul > li{
+  padding:30px;
+  background-color:black;
+  color:white;
+}
+.small ul{
+  display:none;
+}
+
+.small.show ul{
+  display:block;
+  list-style:none;
+  background-color:gray;
+  position:absolute;
+  right:10px;
+  top:30px;
+  height:300px;
+  font-size:30px;
+}
+.small.show li{
+  padding:10px;
+}
+.big .menu_trigger{
+  visibility: hidden;
+}
+.menu_trigger{
+  position:absolute;
+  width:50px;
+  height:44px;
+  right:10px;
+}
+.menu_trigger span{
+  display:block;
+  width:100%;
+  height:4px;
+  background-color: black;
+  margin-bottom:10px;
+}
+.show .menu_trigger span:nth-child(1){
+  margin-top:20px;
+  transition:0.2s;
+  transform:rotate(45deg);
+}
+.show .menu_trigger span:nth-child(2){
+  visibility:hidden;
+}
+.show .menu_trigger span:nth-child(3){
+  margin-top:-30px;
+  transition:0.2s;
+  transform:rotate(-45deg);
+}
